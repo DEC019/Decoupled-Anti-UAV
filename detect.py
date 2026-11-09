@@ -388,7 +388,7 @@ def main():
 	parser.add_argument('--det-conf', type=float, default=0.005)
 	parser.add_argument('--max-det', type=int, default=300)
 	parser.add_argument('--reject-det-classes', type=str, default='0,1,2,3,5,6,7,8,9,10,11,12,13,24,25,28,56,57,59,60')
-	parser.add_argument('--reject-det-conf', type=float, default=0.3)
+	parser.add_argument('--reject-det-conf', type=float, default=0.1)
 	parser.add_argument('--nms-iou', type=float, default=0.1)
 	parser.add_argument('--cls-conf', type=float, default=0.0)
 	parser.add_argument('--target-class', type=str, default='2')
